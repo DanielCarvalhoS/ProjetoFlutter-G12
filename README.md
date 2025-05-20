@@ -16,4 +16,4 @@ Link da Wiki: https://github.com/DanielCarvalhoS/Grupo-13---Jogos/wiki/Prot%C3%B
 
 A avaliação de um integrante foi escrita pela outra pessoa da dupla.<br>
 `Gabriel Barbosa`: Gabriel fez um excelente trabalho na área da pesquisa, além de ter feito a Wiki e auxiliado na criação do Git. Ele também esteve presente analisando a criação do Figma, assim julgando e auxiliando para a efetuação de tal. <br>
-`Daniel Caravlho`: Daniel fez o protótipo no figma e mostrando como estava ficando, além de complementar parte da pesquisa e me ajudar quando eu tinha dúvidas na documentação, fez um ótimo trabalho.
+`Daniel Carvalho`: Daniel fez o protótipo no figma e mostrando como estava ficando, além de complementar parte da pesquisa e me ajudar quando eu tinha dúvidas na documentação, fez um ótimo trabalho.

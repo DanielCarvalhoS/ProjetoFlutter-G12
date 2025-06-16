@@ -11,7 +11,8 @@ Esse repositório guarda a documentação do protótipo da aplicação que mostr
 
 ### Link da Wiki: https://github.com/DanielCarvalhoS/ProjetoFlutter-G13/wiki/Modelo-Figma
 
-`Gabriel Barbosa`: Gabriel fez um excelente trabalho na área da pesquisa, além de ter feito a Wiki e auxiliado na criação do Git. Ele também esteve presente analisando a criação do Figma, assim julgando e auxiliando para a efetuação de tal. 
+`Gabriel Barbosa`: Gabriel fez um excelente trabalho na área da pesquisa, além de ter feito a Wiki e auxiliado na criação do Git. Ele também esteve presente analisando a criação do Figma, assim julgando e auxiliando para a efetuação de tal.
+
 `Daniel Carvalho`: Daniel fez o protótipo no figma e mostrando como estava ficando, além de complementar parte da pesquisa e me ajudar quando eu tinha dúvidas na documentação, fez um ótimo trabalho.
 
 Atualizações:

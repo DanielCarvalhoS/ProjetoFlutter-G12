@@ -15,6 +15,7 @@ Esse repositório guarda a documentação do protótipo da aplicação que mostr
 
 `Daniel Carvalho`: Daniel fez o protótipo no figma e mostrando como estava ficando, além de complementar parte da pesquisa e me ajudar quando eu tinha dúvidas na documentação, fez um ótimo trabalho.
 
+-------------
 Atualizações:
 
 `Gabriel Barbosa:` Gabriel auxiliou na criação e pesquisa para o script e também na hora da programação.

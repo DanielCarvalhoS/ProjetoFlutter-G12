@@ -2,7 +2,7 @@
 
 >[!Important]
  > `Projeto: DBC Project`
->- Dupla: Daniel Carvalho e Gabriel Barbosa
+>- Dupla: Daniel Carvalho e Christian Varandas
 >- Turma: 3°Mtec Desenvolvimento de Jogos Digitais.
 >- Escola: Etec Prof. Basilides de Godoy.
 

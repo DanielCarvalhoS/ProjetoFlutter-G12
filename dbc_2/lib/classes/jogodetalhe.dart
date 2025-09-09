@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class JogoDetalhes extends StatelessWidget {
   final String titulo;
@@ -7,6 +8,7 @@ class JogoDetalhes extends StatelessWidget {
   final Map<String, String> info;
   final VoidCallback? onClose;
   final List<String> imagensGaleria;
+  final Map<String, String> links;
 
   const JogoDetalhes({
     super.key,
@@ -16,6 +18,8 @@ class JogoDetalhes extends StatelessWidget {
     required this.info,
     this.onClose,
     required this.imagensGaleria,
+    required this.links,
+
   });
   @override
   Widget build(BuildContext context) {
@@ -113,33 +117,43 @@ class JogoDetalhes extends StatelessWidget {
   }
   /// Botões de ação
   Row _buildBotoes() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        ElevatedButton(
-          onPressed: () {},
-          child: const Text(
-            'TRAILER',
-            style: TextStyle(
-              color: Color.fromRGBO(178, 33, 33, 1),
-              fontWeight: FontWeight.bold,
-            ),
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      ElevatedButton(
+        onPressed: () async {
+          final url = Uri.parse(links["trailer"] ?? "");
+          if (await canLaunchUrl(url)) {
+            await launchUrl(url, mode: LaunchMode.externalApplication);
+          }
+        },
+        child: const Text(
+          'TRAILER',
+          style: TextStyle(
+            color: Color.fromRGBO(178, 33, 33, 1),
+            fontWeight: FontWeight.bold,
           ),
         ),
-        const SizedBox(width: 80),
-        ElevatedButton(
-          onPressed: () {},
-          child: const Text(
-            'EMPRESA',
-            style: TextStyle(
-              color: Color.fromRGBO(178, 33, 33, 1),
-              fontWeight: FontWeight.bold,
-            ),
+      ),
+      const SizedBox(width: 80),
+      ElevatedButton(
+        onPressed: () async {
+          final url = Uri.parse(links["empresa"] ?? "");
+          if (await canLaunchUrl(url)) {
+            await launchUrl(url, mode: LaunchMode.externalApplication);
+          }
+        },
+        child: const Text(
+          'EMPRESA',
+          style: TextStyle(
+            color: Color.fromRGBO(178, 33, 33, 1),
+            fontWeight: FontWeight.bold,
           ),
         ),
-      ],
-    );
-  }
+      ),
+    ],
+  );
+}
   /// Galeria de imagens
   SizedBox _buildGaleria() {
     return SizedBox(

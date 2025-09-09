@@ -9,7 +9,11 @@
 # RESUMO
 É um aplicativo que possui a divulgação de dois jogos que foram usados no projeto de nosso jogo. Estes sendo MadMax e Uncharted, possuindo seus resumos, equipe de desenvolvedores, imagens e botões que levam o usuário para seus trailers e empresas, caso queiram se aprofundar.
 
-### Link da Wiki: [https://github.com/DanielCarvalhoS/ProjetoFlutter-G13/wiki/Modelo-Figma](https://github.com/DanielCarvalhoS/ProjetoFlutter-G13/wiki/APRESENTAÇÂO-DO-TEMA)
+### Link da Wiki: 
+1 - [Aprensetação](https://github.com/DanielCarvalhoS/ProjetoFlutter-G12/wiki/APRESENTA%C3%87%C3%82O-DO-TEMA)
+2 - [Script atualizado]() & [Script antigo]()
+3 - [Tela do app]()
+4 - []
 
 -------------
 

@@ -11,7 +11,8 @@
 
 ### Link da Wiki: 
 1 - [Aprensetação](https://github.com/DanielCarvalhoS/ProjetoFlutter-G12/wiki/APRESENTA%C3%87%C3%82O-DO-TEMA)
-2 - [Script atualizado]() & [Script antigo]()
+
+2 - [Script atualizado]() & [Script antigo](https://github.com/DanielCarvalhoS/ProjetoFlutter-G12/wiki/(Antes-do-Json)-Prot%C3%B3tipo-Aplicativo)
 3 - [Tela do app]()
 4 - []
 
